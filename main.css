@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pangolin&display=swap');
+
+::-webkit-scrollbar{width: 0;}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right top, #343a40, #393f46, #3e454b, #444a51, #495057);
+    background-attachment: fixed;
+}
+
+nav{
+    background-image: linear-gradient(to right top, #f4f3ee, #f4f3ee, #f4f3ee, #f4f3ee, #f4f3ee);
+}
+nav a{
+    color: #000000;
+}
+
+
+
+nav a:hover{
+    transition:.2s ease-in-out;
+    color: #000;
+}
+
+nav a i{
+    transition:.2s ease-in-out;
+}
+
+nav a:hover i{
+    transition:.2s ease-in-out;
+    transform: translateY(-5px);
+}
+
+header{
+    max-height: auto;
+    
+}
+
+#information,#contact,#contact a{
+    color:rgba(255, 255, 255, 0.616);
+}
+
+#information h1,#contact strong{
+    font-family: 'Pangolin', cursive;
+    color:#f1f1f6 ;
+}
+
+footer{
+    background-image: linear-gradient(to right top, #f4f3ee, #f4f3ee, #f4f3ee, #f4f3ee, #f4f3ee);
+}
+footer a{
+    color: #000000;
+    transition:.3s ease-in-out;
+}
